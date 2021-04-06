@@ -1,0 +1,25 @@
+body{width: 1110px;
+    height: 630px;
+   background-color: #EEF9BF;
+}
+
+.nomedojogo{width: 540px;
+    height:63px;
+    margin-top: 40px;
+    margin-left: 350px;   
+    display: flex;
+    justify-content: center;
+}
+
+h1{color:#75B79E; 
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 56px;
+    letter-spacing: -0.4%;
+
+}
+
+
+@media (max-width: 600px){
+    
+}
