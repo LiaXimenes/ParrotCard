@@ -1,25 +1,59 @@
 body{width: 1110px;
-    height: 630px;
+    height: 629px;
    background-color: #EEF9BF;
 }
 
 .nomedojogo{width: 540px;
     height:63px;
     margin-top: 40px;
-    margin-left: 350px;   
-    display: flex;
-    justify-content: center;
+    margin-left: 285px;
 }
 
-h1{color:#75B79E; 
+span{color:#75B79E; 
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
     font-size: 56px;
     letter-spacing: -0.4%;
+    text-align: center;
+}
 
+.jogo{ display: flex;
+    justify-content: center;
+}
+
+.parrots{ width: 117px;
+    height: 146px;
+    background-color: #A7E9AF;
+    margin: 20px;
+    display: flex;
+    justify-content: center;   
+    align-items: center;
+    border-radius: 5px; 
+}
+
+img{ width: 100px;
+    height:100px;
 }
 
 
 @media (max-width: 600px){
+    body{ width: 100%;
+    }
+
+    .nomedojogo{ width:312px;
+        margin-left: 12px;
+    }
+
+    span{font-size: 36px;
+        text-align: justify;
+        justify-content: center;
+        align-items:justify;
+    }
+
+
+    .jogo{ flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
     
 }
