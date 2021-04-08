@@ -17,6 +17,6 @@ for (let i = 1; i <=numerodecartas; i++){
     adicionarcarta.classList.remove("escondido");
 }
 
-function virarCarta(carta) {
-    carta.firstChild.setAttribute("src", "imagens/metalparrot.gif");
+function virarCarta(carta){
+    carta.firstElementChild.setAttribute("src", "imagens/unicornparrot.gif");
 }
