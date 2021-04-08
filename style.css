@@ -18,10 +18,12 @@ span{color:#75B79E;
 }
 
 .jogo{ display: flex;
+    flex-wrap: wrap;
     justify-content: center;
+
 }
 
-.parrots{ width: 117px;
+.cartas{ width: 117px;
     height: 146px;
     background-color: #A7E9AF;
     margin: 20px;
@@ -33,6 +35,10 @@ span{color:#75B79E;
 
 img{ width: 100px;
     height:100px;
+}
+
+.escondido{
+    display:none;
 }
 
 
