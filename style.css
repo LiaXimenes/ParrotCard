@@ -43,7 +43,7 @@ h1{color:#75B79E;
     backface-visibility: hidden;   
 }
 
-.cartas.virar{transform: rotateY(180deg);
+.cartas.virada{transform: rotateY(180deg);
 }
 
 .tras{transform: rotateY(-180deg);
