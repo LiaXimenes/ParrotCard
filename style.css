@@ -52,20 +52,15 @@ h1{color:#75B79E;
 
 
 
-
-
 @media (max-width: 600px){
     body{ width: 100%;
     }
 
-    .nomedojogo{ width:312px;
-        margin-left: 12px;
+    .nomedojogo{ width:100%;
     }
 
-    span{font-size: 36px;
-        text-align: justify;
-        justify-content: center;
-        align-items:justify;
+    h1{font-size: 36px;
+        text-align: center;
     }
 
 
