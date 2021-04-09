@@ -1,20 +1,18 @@
-body{width: 1110px;
+body{width: 100%;
     height: 629px;
-   background-color: #EEF9BF;
+    background-color: #EEF9BF;
 }
 
 .nomedojogo{width: 540px;
     height:63px;
-    margin-top: 40px;
-    margin-left: 285px;
+    margin:40px auto 0px auto;
 }
 
-span{color:#75B79E; 
+h1{color:#75B79E; 
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
     font-size: 56px;
     letter-spacing: -0.4%;
-    text-align: center;
 }
 
 .jogo{ display: flex;
@@ -33,16 +31,13 @@ span{color:#75B79E;
     border-radius: 5px; 
     position: relative;
     transform-style: preserve-3d;
-    transition:all .5s;
+    transition:all 1s;
 }
 
-img{ width: 100px;
-    height:100px;
-}
 
 .frente,
-.tras{width:100%;
-    height: 100%;
+.tras{width:100px;
+    height: 100px;
     padding: 20px;
     position: absolute;
     backface-visibility: hidden;   

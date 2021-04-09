@@ -1,5 +1,5 @@
 let numerodecartas;
-let baralho = [];
+let nobaralho = [];
 const irparafront = document.querySelector(".jogo")
 const lista = ["bobrossparrot", "explodyparrot", "metalparrot", "fiestaparrot", "revertitparrot", "tripletsparrot", "unicornparrot"];
 
@@ -20,14 +20,14 @@ function quantidadedecartas(){
             <img src="imagens/${lista[i]}.gif" class="tras">
         </li>`;
 
-        baralho.push(adicionarcarta);
-        baralho.push(adicionarcarta);
+        nobaralho.push(adicionarcarta);
+        nobaralho.push(adicionarcarta);
     }
 
-    baralho.sort(comparador)
+    nobaralho.sort(sortear)
 
     for(let i = 0; i < numerodecartas; i++){
-        irparafront.innerHTML += baralho[i]; 
+        irparafront.innerHTML += nobaralho[i]; 
 
     }
 } 
@@ -38,6 +38,13 @@ function virarCarta(vira){
    vira.classList.add("virar");
 }
 
-function comparador() { 
+function sortear() { 
 	return Math.random() - 0.5; 
 }
+
+
+/* function 
+
+
+
+*/
